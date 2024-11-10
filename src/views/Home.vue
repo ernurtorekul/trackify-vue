@@ -1,9 +1,6 @@
 <template>
   <div class="Home">
     <h1 class="text-2xl font-bold">TRAcKify</h1>
-
-    <button @click="showMessage">button</button>
-    <p v-if="message">{{ message }}</p>
   </div>
 </template>
 
@@ -16,9 +13,7 @@ export default {
         };
     },
     methods:{
-        showMessage(){
-            this.message = "This is a message from the Trackify component";
-        },
+        
     },
 };
 </script>
